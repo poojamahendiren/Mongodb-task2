@@ -1,0 +1,344 @@
+// 1.Find all the topics and tasks which are thought in the month of October
+
+{
+	"_id" : ObjectId("635a9ba1f4ee6c75f6fc42c4"),
+	"userId" : 2,
+	"topics" : "react hooks",
+	"month" : "october",
+	"task details" : 
+		{
+			"_id" : ObjectId("635a9f81f4ee6c75f6fc42d8"),
+			"userId" : 2,
+			"task" : "https://startbootstrap.com/previews/shop-homepage"
+		},
+		
+},
+
+/* 2 createdAt:27/10/2022, 20:24:25*/
+{
+	"_id" : ObjectId("635a9ba1f4ee6c75f6fc42c5"),
+	"userId" : 3,
+	"topics" : "react components",
+	"month" : "october",
+	"task details" : 
+		{
+			"_id" : ObjectId("635a9f81f4ee6c75f6fc42d9"),
+			"userId" : 3,
+			"task" : "https://startbootstrap.com/previews/sb-admin-2"
+		}
+		
+},
+
+/* 3 createdAt:27/10/2022, 20:24:25*/
+{
+	"_id" : ObjectId("635a9ba1f4ee6c75f6fc42c6"),
+	"userId" : 4,
+	"topics" : "react router",
+	"month" : "october",
+	"task details" : 
+		{
+			"_id" : ObjectId("635a9f81f4ee6c75f6fc42da"),
+			"userId" : 4,
+			"task" : "implement admindashboard with student-teacher management"
+		}
+		
+},
+
+
+
+
+// 2.Find all the company drives which appeared between 15 oct-2020 and 31-oct-2020
+
+
+/* 1 createdAt:27/10/2022, 21:21:19*/
+{
+	"_id" : ObjectId("635aa8f7f4ee6c75f6fc432a"),
+	"userId" : 3,
+	"company" : "accenture",
+	"conduct_on" : "20 oct-2020"
+},
+
+/* 2 createdAt:27/10/2022, 21:21:19*/
+{
+	"_id" : ObjectId("635aa8f7f4ee6c75f6fc432b"),
+	"userId" : 4,
+	"company" : "cognizant",
+	"conduct_on" : "25 oct-2020"
+},
+
+/* 3 createdAt:27/10/2022, 21:21:19*/
+{
+	"_id" : ObjectId("635aa8f7f4ee6c75f6fc432c"),
+	"userId" : 5,
+	"company" : "tcs",
+	"conduct_on" : "30 oct-2020"
+},
+
+
+// 3.Find all the company drives and students who are appeared for the placement.
+
+{
+	"_id" : ObjectId("635aaf63f4ee6c75f6fc435a"),
+	"userId" : 1,
+	"name" : "xxx",
+	"placement_attended" : [ "tcs", "cognizant" ],
+	"placements_details" : [
+		{
+			"_id" : ObjectId("635aa8f7f4ee6c75f6fc432b"),
+			"userId" : 4,
+			"company" : "cognizant",
+			"conduct_on" : "25 oct-2020"
+		},
+		{
+			"_id" : ObjectId("635aa8f7f4ee6c75f6fc432c"),
+			"userId" : 5,
+			"company" : "tcs",
+			"conduct_on" : "30 oct-2020"
+		}
+		
+	]
+},
+
+/* 2 createdAt:27/10/2022, 21:48:43*/
+{
+	"_id" : ObjectId("635aaf63f4ee6c75f6fc435b"),
+	"userId" : 2,
+	"name" : "yyy",
+	"placement_attended" : [ "zoho", "google" ],
+	"placements_details" : [
+		{
+			"_id" : ObjectId("635aa8f7f4ee6c75f6fc4328"),
+			"userId" : 1,
+			"company" : "google",
+			"conduct_on" : "12 oct-2020"
+		},
+		{
+			"_id" : ObjectId("635aa8f7f4ee6c75f6fc4329"),
+			"userId" : 2,
+			"company" : "zoho",
+			"conduct_on" : "15 oct-2020"
+		}
+		
+	]
+},
+
+/* 3 createdAt:27/10/2022, 21:48:43*/
+{
+	"_id" : ObjectId("635aaf63f4ee6c75f6fc435c"),
+	"userId" : 3,
+	"name" : "zzz",
+	"placement_attended" : [ "accenture" ],
+	"placements_details" : 
+		{
+			"_id" : ObjectId("635aa8f7f4ee6c75f6fc432a"),
+			"userId" : 3,
+			"company" : "accenture",
+			"conduct_on" : "20 oct-2020"
+		}
+		
+	
+},
+
+/* 4 createdAt:27/10/2022, 21:48:43*/
+{
+	"_id" : ObjectId("635aaf63f4ee6c75f6fc435d"),
+	"userId" : 4,
+	"name" : "aaa",
+	"placement_attended" : [ "zoho", "cognizant" ],
+	"placements_details" : [
+		{
+			"_id" : ObjectId("635aa8f7f4ee6c75f6fc4329"),
+			"userId" : 2,
+			"company" : "zoho",
+			"conduct_on" : "15 oct-2020"
+		},
+		{
+			"_id" : ObjectId("635aa8f7f4ee6c75f6fc432b"),
+			"userId" : 4,
+			"company" : "cognizant",
+			"conduct_on" : "25 oct-2020"
+		}
+		
+	]
+},
+
+/* 5 createdAt:27/10/2022, 21:48:43*/
+{
+	"_id" : ObjectId("635aaf63f4ee6c75f6fc435e"),
+	"userId" : 5,
+	"name" : "ppp",
+	"placement_attended" : [ "tcs" ],
+	"placements_details" : 
+		{
+			"_id" : ObjectId("635aa8f7f4ee6c75f6fc432c"),
+			"userId" : 5,
+			"company" : "tcs",
+			"conduct_on" : "30 oct-2020"
+		}
+		
+	
+},
+
+
+
+
+// 4.Find the number of problems solved by the user in codekata
+
+
+/* 1 createdAt:27/10/2022, 21:48:43*/
+{
+	"_id" : ObjectId("635aaf63f4ee6c75f6fc435a"),
+	"userId" : 1,
+	"name" : "xxx",
+	"placement_attended" : [ "tcs", "cognizant" ],
+	"codekata_solved" : [
+		{
+			"_id" : ObjectId("635b2b593cf2744a3a9d5e05"),
+			"userId" : 1,
+			"problems_solved" : 12,
+			"problems_unsolved" : 8
+		}
+		
+},
+
+/* 2 createdAt:27/10/2022, 21:48:43*/
+{
+	"_id" : ObjectId("635aaf63f4ee6c75f6fc435b"),
+	"userId" : 2,
+	"name" : "yyy",
+	"placement_attended" : [ "zoho", "google" ],
+	"codekata_solved" : [
+		{
+			"_id" : ObjectId("635b2b593cf2744a3a9d5e06"),
+			"userId" : 2,
+			"problems_solved" : 17,
+			"problems_unsolved" : 3
+		}
+		
+},
+
+/* 3 createdAt:27/10/2022, 21:48:43*/
+{
+	"_id" : ObjectId("635aaf63f4ee6c75f6fc435c"),
+	"userId" : 3,
+	"name" : "zzz",
+	"placement_attended" : [ "accenture" ],
+	"codekata_solved" : [
+		{
+			"_id" : ObjectId("635b2b593cf2744a3a9d5e07"),
+			"userId" : 3,
+			"problems_solved" : 9,
+			"problems_unsolved" : 11
+		}
+		
+},
+
+/* 4 createdAt:27/10/2022, 21:48:43*/
+{
+	"_id" : ObjectId("635aaf63f4ee6c75f6fc435d"),
+	"userId" : 4,
+	"name" : "aaa",
+	"placement_attended" : [ "zoho", "cognizant" ],
+	"codekata_solved" : [
+		{
+			"_id" : ObjectId("635b2b593cf2744a3a9d5e08"),
+			"userId" : 4,
+			"problems_solved" : 16,
+			"problems_unsolved" : 4
+		}
+		
+},
+
+/* 5 createdAt:27/10/2022, 21:48:43*/
+{
+	"_id" : ObjectId("635aaf63f4ee6c75f6fc435e"),
+	"userId" : 5,
+	"name" : "ppp",
+	"placement_attended" : [ "tcs" ],
+	"codekata_solved" : [
+		{
+			"_id" : ObjectId("635b2b593cf2744a3a9d5e09"),
+			"userId" : 5,
+			"problems_solved" : 10,
+			"problems_unsolved" : 10
+		}
+		
+}
+
+
+// 5.Find all the mentors with who has the mentee's count more than 15
+
+
+/* 1 createdAt:28/10/2022, 07:39:30*/
+{
+	"_id" : ObjectId("635b39da3cf2744a3a9d5e6f"),
+	"mentor_id" : 2,
+	"name" : "abc",
+	"experience" : "2 years",
+	"mentees" : 24
+},
+
+/* 2 createdAt:28/10/2022, 07:39:30*/
+{
+	"_id" : ObjectId("635b39da3cf2744a3a9d5e70"),
+	"mentor_id" : 3,
+	"name" : "abc",
+	"experience" : "2 years",
+	"mentees" : 20
+},
+
+/* 3 createdAt:28/10/2022, 07:39:30*/
+{
+	"_id" : ObjectId("635b39da3cf2744a3a9d5e72"),
+	"mentor_id" : 5,
+	"name" : "abc",
+	"experience" : "2 years",
+	"mentees" : 16
+}
+
+
+// 6.Find the number of users who are absent between 15 oct-2020 and 31-oct-2020
+
+/* 1 createdAt:28/10/2022, 10:13:32*/
+{
+	"_id" : ObjectId("635b5df43cf2744a3a9d5ea1"),
+	"userId" : 2,
+	"name" : "yyy",
+	"placement_attended" : [ "zoho", "google" ],
+	"absent_on" : "30 oct 2020",
+	"task" : "not submitted"
+},
+
+/* 2 createdAt:28/10/2022, 10:13:32*/
+{
+	"_id" : ObjectId("635b5df43cf2744a3a9d5ea2"),
+	"userId" : 3,
+	"name" : "zzz",
+	"placement_attended" : [ "accenture" ],
+	"absent_on" : "21 oct 2020",
+	"task" : "submitted"
+},
+
+/* 3 createdAt:28/10/2022, 10:13:32*/
+{
+	"_id" : ObjectId("635b5df43cf2744a3a9d5ea3"),
+	"userId" : 4,
+	"name" : "aaa",
+	"placement_attended" : [ "zoho", "cognizant" ],
+	"absent_on" : "17 oct 2020",
+	"task" : "not submitted"
+},
+
+/* 4 createdAt:28/10/2022, 10:13:32*/
+{
+	"_id" : ObjectId("635b5df43cf2744a3a9d5ea7"),
+	"userId" : 8,
+	"name" : "bbb",
+	"placement_attended" : [ "accenture" ],
+	"absent_on" : "25 oct 2020",
+	"task" : "submitted"
+},
+
+
+
+
